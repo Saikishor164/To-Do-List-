@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        TO DO List
+    </h1>
+    <form>
+        <div>
+        <input type="text" name="task" placeholder="Enter your task" value="" class="todoValue" />
+        <button class="btn">Add Task</button>
+        </div>
+        <div class="todoLists">
+
+        </div>
+    </form>
+
+<script>
+    const todoLists = document.querySelector(".todoLists");
+    const listValue = document.querySelector(".todoValue");
+
+    const addTodoList = () => {
+        console.log("Hello JS best Course");        
+    }
+
+    document.querySelector(".btn").addEventListener('click', () => { 
+        addTodoList();
+    });
+</script>
+
+</body>
+</html>
